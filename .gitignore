@@ -1,5 +1,5 @@
 # build output
-dist/
+# dist/  <- Comentado para permitir GitHub Pages
 
 # generated types
 .astro/
