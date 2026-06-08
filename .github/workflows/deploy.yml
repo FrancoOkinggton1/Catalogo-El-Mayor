@@ -1,13 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Activa el despliegue cada vez que haces push a la rama principal
   push:
     branches: [ main ]
-  # Permite ejecutar este workflow manualmente desde la pestaña Actions
   workflow_dispatch:
 
-# Permite que este script haga cambios en GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -23,10 +20,12 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+      
+      # Le indicamos a Astro que use Node 22
       - name: Install, build, and upload your site
         uses: withastro/action@v3
-        # with:
-          # path: . # Descomenta esto si tu proyecto Astro no está en la raíz del repositorio
+        with:
+          node-version: 22
 
   deploy:
     needs: build
