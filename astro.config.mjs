@@ -3,10 +3,10 @@ import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  // Cambia "tu-usuario" por tu nombre de usuario en GitHub
+  // URL base de tu perfil de GitHub
   site: 'https://FrancoOkinggton1.github.io',
-  // Cambia "elmayor" por el nombre exacto de tu repositorio
-  base: 'elmayor',
+  // Debe ser el nombre exacto de tu repositorio con sus mayúsculas
+  base: '/Catalogo-El-Mayor', 
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()]
