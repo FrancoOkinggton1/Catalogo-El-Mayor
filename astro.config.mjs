@@ -1,9 +1,12 @@
-// astro.config.mjs
+import { defineConfig } from 'astro/config';
+import react from '@astrojs/react';
+import tailwindcss from '@tailwindcss/vite';
+
 export default defineConfig({
   site: 'https://FrancoOkinggton1.github.io',
-  base: '/Catalogo-El-Mayor/', // Asegúrate de que termine en barra
+  base: '/Catalogo-El-Mayor/', 
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()]
-  } 
-}); 
+  }
+});
