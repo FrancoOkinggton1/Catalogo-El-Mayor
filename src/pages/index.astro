@@ -1,0 +1,10 @@
+---
+import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
+import Catalog from '../components/Catalog.jsx';
+import products from '../data/products.json';
+---
+
+<Layout title="Catálogo Digital - Distribuidora El Mayor">
+  <Catalog initialProducts={products} client:load />
+</Layout>

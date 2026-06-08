@@ -1,0 +1,418 @@
+[
+  {
+    "id": 1,
+    "name": "Arroz Tucapel",
+    "category": "Abarrotes",
+    "package": "1 Kg",
+    "sku": "ABA-XAJI",
+    "image": "/images/ABA-XAJI.png"
+  },
+  {
+    "id": 2,
+    "name": "Azúcar Shogun",
+    "category": "Abarrotes",
+    "package": "1 Kg",
+    "sku": "ABA-0Y6D",
+    "image": "/images/ABA-0Y6D.png"
+  },
+  {
+    "id": 3,
+    "name": "Aceite Coliseo",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-PBHS",
+    "image": "/images/ABA-PBHS.png"
+  },
+  {
+    "id": 4,
+    "name": "Aceite Bonanza",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-PBHS1",
+    "image": "/images/ABA-PBHS1.png"
+  },
+  {
+    "id": 5,
+    "name": "Aceite Misol",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-PBHS2",
+    "image": "/images/ABA-PBHS2.png"
+  },
+  {
+    "id": 6,
+    "name": "Papel Higiénico Noble",
+    "category": "Aseo",
+    "package": "4 un",
+    "sku": "ASE-AHXT",
+    "image": "/images/ASE-AHXT.png"
+  },
+  {
+    "id": 7,
+    "name": "Papel Higiénico Confort",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-HV3A",
+    "image": "/images/ASE-HV3A.png"
+  },
+  {
+    "id": 8,
+    "name": "Toalla Higiénica Nocturna Ladysoft",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-3ZMF",
+    "image": "/images/ASE-3ZMF.png"
+  },
+  {
+    "id": 9,
+    "name": "Toalla Higiénica Max Pro Ladysoft",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-8MDD",
+    "image": "/images/ASE-8MDD.png"
+  },
+  {
+    "id": 10,
+    "name": "Toallas Húmedas Baby Sec",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-4V30",
+    "image": "/images/ASE-4V30.png"
+  },
+  {
+    "id": 11,
+    "name": "Esponja Loza",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-T9NT",
+    "image": "/images/ASE-T9NT.png"
+  },
+  {
+    "id": 12,
+    "name": "Comida Perro Cachupin 25 Kg",
+    "category": "Mascotas",
+    "package": "25 Kg",
+    "sku": "MAS-3W5U",
+    "image": "/images/MAS-3W5U.png"
+  },
+  {
+    "id": 13,
+    "name": "Powerade 850 cc",
+    "category": "Bebidas y Refrescos",
+    "package": "850 cc",
+    "sku": "BEB-ZBIK",
+    "image": "/images/BEB-ZBIK.png"
+  },
+  {
+    "id": 14,
+    "name": "OCB",
+    "category": "Tabaquería / Otros",
+    "package": null,
+    "sku": "TAB-CIDK",
+    "image": "/images/TAB-CIDK.png"
+  },
+  {
+    "id": 15,
+    "name": "Master Dog Adulto 18 Kg",
+    "category": "Mascotas",
+    "package": "18 Kg",
+    "sku": "MAS-WNNH",
+    "image": "/images/MAS-WNNH.png"
+  },
+  {
+    "id": 16,
+    "name": "Toalla Nova 70 Mt",
+    "category": "Aseo",
+    "package": "70 Mt",
+    "sku": "ASE-J7XV",
+    "image": "/images/ASE-J7XV.png"
+  },
+  {
+    "id": 17,
+    "name": "Toalla Abolengo 100 Mt",
+    "category": "Aseo",
+    "package": "100 Mt",
+    "sku": "ASE-G0FN",
+    "image": "/images/ASE-G0FN.png"
+  },
+  {
+    "id": 18,
+    "name": "Servilletas",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-9XUY",
+    "image": "/images/ASE-9XUY.png"
+  },
+  {
+    "id": 19,
+    "name": "Sal",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-41IB",
+    "image": "/images/ABA-41IB.png"
+  },
+  {
+    "id": 20,
+    "name": "Fideo Espirales",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-LJH7",
+    "image": "/images/ABA-LJH7.png"
+  },
+  {
+    "id": 21,
+    "name": "Fideo Spaghetti N°5 Carozzi",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-5LXO",
+    "image": "/images/ABA-5LXO.png"
+  },
+  {
+    "id": 22,
+    "name": "Maruchan Variedades",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-6QJI",
+    "image": "/images/ABA-6QJI.png"
+  },
+  {
+    "id": 23,
+    "name": "Mayonesa",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-UJV6",
+    "image": "/images/ABA-UJV6.png"
+  },
+  {
+    "id": 24,
+    "name": "Ketchup",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-UJV7",
+    "image": "/images/ABA-UJV7.png"
+  },
+  {
+    "id": 25,
+    "name": "Mostaza",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-UJV8",
+    "image": "/images/ABA-UJV8.png"
+  },
+  {
+    "id": 26,
+    "name": "BBQ",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-UJV9",
+    "image": "/images/ABA-UJV9.png"
+  },
+  {
+    "id": 27,
+    "name": "Bebida CCU 3L",
+    "category": "Bebidas y Refrescos",
+    "package": "3L",
+    "sku": "BEB-OH9S",
+    "image": "/images/BEB-OH9S.png"
+  },
+  {
+    "id": 28,
+    "name": "Protein Café y Vainilla",
+    "category": "Lácteos y Refrigerados",
+    "package": null,
+    "sku": "LAC-DBDW",
+    "image": "/images/LAC-DBDW.png"
+  },
+  {
+    "id": 29,
+    "name": "Barra Protein Var.",
+    "category": "Snacks / Suplementos",
+    "package": null,
+    "sku": "SNA-2PCN",
+    "image": "/images/SNA-2PCN.png"
+  },
+  {
+    "id": 30,
+    "name": "Harina c/s polvo 1 Kg",
+    "category": "Abarrotes",
+    "package": "1 Kg",
+    "sku": "ABA-9T84",
+    "image": "/images/ABA-9T84.png"
+  },
+  {
+    "id": 31,
+    "name": "Tapsin Día y Noche",
+    "category": "Farmacia y Cuidado Personal",
+    "package": null,
+    "sku": "FAR-AZYT",
+    "image": "/images/FAR-AZYT.png"
+  },
+  {
+    "id": 32,
+    "name": "Test Embarazo",
+    "category": "Farmacia y Cuidado Personal",
+    "package": null,
+    "sku": "FAR-JXEP",
+    "image": "/images/FAR-JXEP.png"
+  },
+  {
+    "id": 33,
+    "name": "Salsa Tomate",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-Q85J",
+    "image": "/images/ABA-Q85J.png"
+  },
+  {
+    "id": 34,
+    "name": "Escobillón",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-SG65",
+    "image": "/images/ASE-SG65.png"
+  },
+  {
+    "id": 35,
+    "name": "Pala",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-KXVF",
+    "image": "/images/ASE-KXVF.png"
+  },
+  {
+    "id": 36,
+    "name": "Paño Microfibra",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-1T2T",
+    "image": "/images/ASE-1T2T.png"
+  },
+  {
+    "id": 37,
+    "name": "Té Supremo Ceylan",
+    "category": "Abarrotes / Infusiones",
+    "package": null,
+    "sku": "ABI-ALA7",
+    "image": "/images/ABI-ALA7.png"
+  },
+  {
+    "id": 38,
+    "name": "Hierba Mate",
+    "category": "Abarrotes / Infusiones",
+    "package": null,
+    "sku": "ABI-53LC",
+    "image": "/images/ABI-53LC.png"
+  },
+  {
+    "id": 39,
+    "name": "Insecticida Killer",
+    "category": "Aseo",
+    "package": null,
+    "sku": "ASE-58DR",
+    "image": "/images/ASE-58DR.png"
+  },
+  {
+    "id": 40,
+    "name": "Cloro Clorox x 1 L",
+    "category": "Aseo",
+    "package": "1 L",
+    "sku": "ASE-C11E",
+    "image": "/images/ASE-C11E.png"
+  },
+  {
+    "id": 41,
+    "name": "Cloro Clorinda x 1 L",
+    "category": "Aseo",
+    "package": "1 L",
+    "sku": "ASE-C12E",
+    "image": "/images/ASE-C12E.png"
+  },
+  {
+    "id": 42,
+    "name": "Cloro Gel 900cc Clorinda",
+    "category": "Aseo",
+    "package": "900cc",
+    "sku": "ASE-RTJ5",
+    "image": "/images/ASE-RTJ5.png"
+  },
+  {
+    "id": 43,
+    "name": "Cloro Gel 900cc Impeke",
+    "category": "Aseo",
+    "package": "900cc",
+    "sku": "ASE-RTJ6",
+    "image": "/images/ASE-RTJ6.png"
+  },
+  {
+    "id": 44,
+    "name": "Levadura 10gr",
+    "category": "Abarrotes",
+    "package": "10gr",
+    "sku": "ABA-PHT0",
+    "image": "/images/ABA-PHT0.png"
+  },
+  {
+    "id": 45,
+    "name": "Endulzante Lansa",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-HL9X",
+    "image": "/images/ABA-HL9X.png"
+  },
+  {
+    "id": 46,
+    "name": "Chocolate Sahne Nuss",
+    "category": "Abarrotes / Confitería",
+    "package": null,
+    "sku": "ABC-PSEI",
+    "image": "/images/ABC-PSEI.png"
+  },
+  {
+    "id": 47,
+    "name": "Chocolate Trencito",
+    "category": "Abarrotes / Confitería",
+    "package": null,
+    "sku": "ABC-PSEI1",
+    "image": "/images/ABC-PSEI1.png"
+  },
+  {
+    "id": 48,
+    "name": "Galletas (Tritón, Vino, Coco, Malt., Tuareg, etc.)",
+    "category": "Abarrotes / Confitería",
+    "package": null,
+    "sku": "ABC-MVIH",
+    "image": "/images/ABC-MVIH.png"
+  },
+  {
+    "id": 49,
+    "name": "Mantequilla Soprole",
+    "category": "Lácteos y Refrigerados",
+    "package": null,
+    "sku": "LAC-CWI7",
+    "image": "/images/LAC-CWI7.png"
+  },
+  {
+    "id": 50,
+    "name": "Margarina Soprole",
+    "category": "Lácteos y Refrigerados",
+    "package": null,
+    "sku": "LAC-CWI6",
+    "image": "/images/LAC-CWI6.png"
+  },
+  {
+    "id": 51,
+    "name": "Queso Soprole",
+    "category": "Lácteos y Refrigerados",
+    "package": null,
+    "sku": "LAC-4CIY",
+    "image": "/images/LAC-4CIY.png"
+  },
+  {
+    "id": 52,
+    "name": "Aceituna",
+    "category": "Abarrotes",
+    "package": null,
+    "sku": "ABA-HE7U",
+    "image": "/images/ABA-HE7U.png"
+  }
+]
