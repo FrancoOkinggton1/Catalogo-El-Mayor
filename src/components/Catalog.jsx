@@ -48,10 +48,10 @@ export default function Catalog({ initialProducts }) {
           {filteredProducts.map(product => (
             <div key={product.id} className="border border-gray-200 rounded-xl p-4 flex flex-col justify-between shadow-sm hover:shadow-md transition bg-white">
               <div>
-                {/* Renderizado condicional de la imagen con la ruta de GitHub Pages corregida. */}
+                {/* Se cambia la ruta estática por la variable BASE_URL nativa de Vite en Astro */}
                 {product.image ? (
                   <img 
-                    src={`/Catalogo-El-Mayor${product.image}`} 
+                    src={`${import.meta.env.BASE_URL}${product.image.replace(/^\//, '')}`} 
                     alt={product.name} 
                     className="aspect-square w-full object-cover rounded-lg mb-4 bg-gray-100"
                     loading="lazy"
