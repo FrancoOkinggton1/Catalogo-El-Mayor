@@ -48,7 +48,7 @@ export default function Catalog({ initialProducts }) {
           {filteredProducts.map(product => (
             <div key={product.id} className="border border-gray-200 rounded-xl p-4 flex flex-col justify-between shadow-sm hover:shadow-md transition bg-white">
               <div>
-                {/* Renderizado condicional de la imagen con la ruta de GitHub Pages corregida */}
+                {/* Renderizado condicional de la imagen con la ruta de GitHub Pages corregida. */}
                 {product.image ? (
                   <img 
                     src={`/Catalogo-El-Mayor${product.image}`} 
